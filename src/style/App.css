@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.Header {
+  flex: 0 1 auto;
+}
+
+.Home, .Configuration {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home__header, .Configuration__header {
+  flex: 0;
+}
+
+.Home__Temperature-Chart {
+  position: relative;
+  flex: 1;
+  width: 80vw;
+}
+
+.Configuration__form-container {
+  flex: 1;
+  width: 50vw;
+}
