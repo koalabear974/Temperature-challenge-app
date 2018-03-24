@@ -1,6 +1,7 @@
 # Temperature app challenge
 
 This app was made in the case of a coding challenge.
+It have been generated via the create-react-app sample.
 
 ## Installation
 
