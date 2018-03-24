@@ -45,6 +45,8 @@ class App extends Component {
     // Refresh Clock for dataGeneratorTimer
     clearInterval(this.dataGeneratorTimer);
     this.dataGeneratorTimer = setInterval(this.addTemperatureData, temperatureConfiguration.interval * 1000);
+
+    // Could add a redirection to index here but kept it this way to be able to test configuration form properly
   }
 
   render() {

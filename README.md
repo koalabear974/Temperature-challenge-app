@@ -12,16 +12,24 @@ To setup the project:
 
 ## Technical choice
 
-Api calls: I used the new fetch and promise function of javascript
-Chart: react-chart-js-2 is a react package for Chart.js that animate an take care of data reload
-Formatting: Utils.js is used to format api response, generate chart.js data and format timestamps
-Application: React router and BEM styleguide are now go-to solution for any react application
+**Api calls:** I used the new fetch and promise function of javascript
+
+**Chart:** react-chart-js-2 is a react package for Chart.js that animate an take care of data reload
+
+**Formatting:** Utils.js is used to format api response, generate chart.js data and format timestamps
+
+**Form:** The form in the configuration page doesn't push anything to the server and use client-side validation (didn't add the redirection on submit to properly test it)
+
+**Application:** To switch between pages I used react-router
+
+**Style:** I used bootstrap to quickly use simple style (e.g Form, Navbar) and BEM styleguide to keep the css clean
 
 ## TODO
 
-You can find two todo in the code:
+You can find three todo in the code:
 - Hide the API key for the open weather api call, as it's only one free key I didn't lose time to hide it.
-- Manage multiple datasets in the generateChartData. As there was only was dataType to display there was no need to manage multiple datasets properly.
+- Manage multiple datasets in the generateChartData. As there was only one dataType to display there was no need to manage multiple datasets properly.
+- Add Tests to the project
 
 ## Next Step
 
